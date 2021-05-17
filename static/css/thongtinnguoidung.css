@@ -1,0 +1,50 @@
+.container-form
+{
+    margin:50px auto;
+    width:85%;
+    background: white;
+}
+.header-form h4{
+    text-align: center;   
+    padding:10px;
+    padding-bottom: 5px;
+}
+.header-form{
+    border-bottom:1px solid rgb(211, 211, 211);
+    width:85%;
+    margin: 0 auto;
+}
+.form-detail-user input[type='password'],.form-detail-user input[type='text']
+{
+    width:300px;
+}
+.detail-user{
+    padding:10px;
+}
+.title{
+    font-size:17px;
+    font-weight: bold;
+}
+.submit-button{
+    display:flex;
+    justify-content: center;
+}
+.detail-user{
+    width:85%;
+    margin:0 auto;
+}
+.detail-user .row
+{
+    padding:10px;
+}
+.mid{
+    background:linear-gradient(to right,#42275a,#734b6d);
+    margin-bottom:0px;
+}
+@media only screen and (max-width: 596px)
+{
+    .form-detail-user input[type='password'],.form-detail-user input[type='text']
+    {
+        width:100%;
+    }
+}

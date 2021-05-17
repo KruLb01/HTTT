@@ -1,0 +1,123 @@
+.mid .detail-container{
+    height:auto;
+    display: flex;
+    padding:5px;
+    flex-wrap: wrap;
+}
+.container-prod-image{
+    display:flex;
+    flex-wrap:wrap;
+    flex:1;
+}
+.container-product-details{
+    padding:5px;
+    flex:1;
+}
+.detail-container div{
+    margin:5px 0px;
+}
+tr.header-black{
+    background:black;
+    color:white;
+}
+.price-info tr{
+    text-align: center;
+}
+.size-col{
+    background:#dc3546;
+    color:white
+}
+.price-info{
+    width:300px;
+    margin-top:10px;
+}
+.price-info tr td{
+    border: 1px solid black;
+}
+.prod-decription{
+    width:100%;
+    display:block;
+}
+.prod-image-detail{
+    width:25%;
+    height:100px;
+    cursor:pointer;
+}
+.title{
+    display:block;
+    font-weight:bold;
+}
+.title-1{
+    font-size:20px;
+}
+.title-2{
+    font-size:17px;
+}
+.policy-box{
+    flex:1;
+    border:1px solid black;
+    padding:10px;
+}
+.ExtendedImage{
+    width:100%;
+    height:250px;
+    padding:30px;
+    display:block;
+}
+.ExtendedImage img{
+    width:100%;
+    height: 100%;
+}
+.img-active{
+    border:1px solid rgba(200,204,208,0.8);
+}
+.prod-image-detail img{
+    width:100%;
+    height:100%;
+}
+.checked{
+    color:orange;
+}
+.rating-star > i.fa.fa-star:before{
+    font-size:11px; 
+}
+.size-container input[type="checkbox"]{
+    display:none;
+}
+.size-container input[type="checkbox"] + label{
+    color:black;
+    border:1px solid black;
+    padding:5px 10px;
+    margin-left:10px;
+}
+input[type="checkbox"] + label.size-checked{
+    background:#dc3546;
+    color:white !important;
+}
+.size-container input[type="checkbox"] + label:hover{
+    text-decoration: none;
+}
+.sold-out{
+    cursor:not-allowed;
+}
+.btn-buyproduct > .btn{
+    padding:10px 50px;
+}
+.amount-of-a-prod > .btn-dark{
+    width:30px;
+}
+.no-stock{
+    flex:1;
+}
+@media only screen and (max-width:911px)
+{
+    .price-info{
+        width:100%;
+    }
+}
+@media only screen and (max-width:576px){
+    .detail-container{
+        flex-direction: column;
+    }
+}
+

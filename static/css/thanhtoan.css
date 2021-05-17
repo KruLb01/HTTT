@@ -1,0 +1,95 @@
+.notification-box{
+	background: rgba(255,0,0,0.2);
+	width: 500px;
+	height:max-content;
+}
+.notification-box p{
+	padding:5px;
+}
+.container-cart-checkout{
+	margin:10px auto;
+	width:95%;
+}
+.container-user-cart-infos{
+	display:flex;
+	flex-wrap:wrap;
+}
+.product_image img{
+	width:100px;
+	height:100px;
+}
+.row-header th{
+	text-align:center;
+	width:500px;
+}
+.row-header{
+	border-bottom:2px solid #e7e7e7;
+	height:50px;
+}
+.header-title p{
+	text-align:center;
+	font-size:21px;
+	font-weight: bold;
+}
+.row-product-item td{
+	text-align:center;
+}
+.row-product-item td:first-child{
+	text-align:left;
+}
+.mid{
+	background: #e7e7e7;
+	margin-bottom: 0px;
+}
+.col-content{
+	word-wrap: break-word;
+}
+.total-price-all-products
+{
+	text-align: right;
+	margin-top:10px;
+	position: relative;
+	border-top:2px solid #e7e7e7;
+}
+.total-price-all-products span
+{
+	height:50px;
+	line-height: 50px;
+}
+.radiobox-container .radiobox-item input ~ label{
+	color:black;
+	font-size:14px;
+}
+.radiobox-title span{
+	font-size:16px;
+	font-weight: bold;
+}
+.container-message-fill-in span{
+	color:red;
+	font-size:14px;
+	font-style: italic;
+}
+.total-price-all-products span::before{
+	content:'Tổng tiền: ';
+	padding-right:10px;
+}
+form > div{
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+.submit-checkout input{
+	margin:0 auto;
+	display:block;
+}
+span.error-text{
+	color:red;
+}
+span.active-text{
+	color:#28a475;
+}
+@media only screen and (max-width: 596px)
+{
+	.notification-box{
+		width:100%;
+	}
+}

@@ -1,4 +1,4 @@
-# Đồ án web 2 
+# Đồ án Phân tích thiết kế hệ thống thông tin
 > Main Language : PHP
 
 ![alt text](/static/images/logos/logo-ngang-trans.png "HKP Store")
@@ -35,7 +35,7 @@
 |----	|------------------------------------------------------------------------	|------------------------------------------------------	|
 | 1  	| Phát triển Templates                                                   	| Thanh Hòa (40%) <br> Văn Kiệt (40%) <br> Gia Phúc (20%) 	|
 | 2  	| Template admin page                                                    	| Thanh Hòa <br> Gia Phúc                              	|
-| 3  	| Template customer page                                                 	| Văn Kiệt <br> Thành Phát                              |
+| 3  	| Template customer page                                                 	| Văn Kiệt                               |
 | 4  	| Thiết kế model/database                                                	| Team dựa trên yêu cầu                                	|
 | 6  	| Xử lý backend cho website                                             	| Thanh Hòa (40%) <br> Văn Kiệt (40%) <br> Gia Phúc (20%)  	|
 | 7  	| Backend admin page                                                    	| Thanh Hòa <br> Gia Phúc                              	|
